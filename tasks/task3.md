@@ -1,4 +1,4 @@
-# 과제 3 (난이도 상)
+﻿# 과제 3 (난이도 상)
 
 https://github.com/udacity/asteroids 에 들어가 해당 리포지토리를 로컬 머신에 클론 받고 다음 과제를 수행해주세요.
 
@@ -16,7 +16,7 @@ asteroids를 실행하면 우주선과 소행성이 나타납니다. 키보드�
 
 1. 버그를 유발한 커밋의 ID: 25ede836903881848fea811df5b687b59d962da3 'a couple missing ends with the ipad version'
 2. 버그를 수정하는 방법: 
-  - 최근 커밋부터 되돌아가면서 각각의 상태에서 indes.html을 들어가서 총알의 상태가 바뀌는 지점에서의 코드를 아래와 같이 확인했습니다. 
+  - 최근 커밋부터 되돌아가면서 각각의 상태에서 index.html을 들어가서 총알의 상태가 바뀌는 지점에서의 코드를 아래와 같이 확인했습니다. 
 ![bugFound](../resources/bugFound.JPG)
 
   - 메모장에서 game.js를 열어 실수로 삭제된 1줄을 다시 입력하고 아래의 명령어를 차례로 입력하여 fork 받은 repositeory에 push했습니다. <br>
