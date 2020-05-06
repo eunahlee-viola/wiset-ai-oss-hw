@@ -19,11 +19,11 @@ asteroids를 실행하면 우주선과 소행성이 나타납니다. 키보드�
   - 최근 커밋부터 되돌아가면서 각각의 상태에서 indes.html을 들어가서 총알의 상태가 바뀌는 지점에서의 코드를 아래와 같이 확인했습니다. 
 ![bugFound](../resources/bugFound.JPG)
 
-  - 메모장에서 game.js를 열어 실수로 삭제된 1줄을 다시 입력하고 아래의 명령어를 차례로 입력하여 fork 받은 repositeory에 push했습니다. 
-   $ git add game.js
-   $ git push -u origin master
-   $ git commit -sm 'delayBeforeBullet bugFix'
-   $ git push origin master
+  - 메모장에서 game.js를 열어 실수로 삭제된 1줄을 다시 입력하고 아래의 명령어를 차례로 입력하여 fork 받은 repositeory에 push했습니다. <br>
+   $ git add game.js<br>
+   $ git push -u origin master<br>
+   $ git commit -sm 'delayBeforeBullet bugFix'<br>
+   $ git push origin master<br>
   - 결과로 수정된 commit의 내용은 아래와 같습니다. (pull-request는 하지 않았습니다.^^)  
 ![bugFixed](../resources/bugFixed.JPG)
   
