@@ -17,8 +17,7 @@ asteroids를 실행하면 우주선과 소행성이 나타납니다. 키보드�
 1. 버그를 유발한 커밋의 ID: 25ede836903881848fea811df5b687b59d962da3 'a couple missing ends with the ipad version'
 2. 버그를 수정하는 방법: 
   - 최근 커밋부터 되돌아가면서 각각의 상태에서 indes.html을 들어가서 총알의 상태가 바뀌는 지점에서의 코드를 아래와 같이 확인했습니다. 
-![asteroids-bug](../resources/bugFound.JPG)
-![learn-git-branching-level-1](../resources/bug/Found.JPG)
+![bugFound](../resources/bugFound.JPG)
 
   - 메모장에서 game.js를 열어 실수로 삭제된 1줄을 다시 입력하고 아래의 명령어를 차례로 입력하여 fork 받은 repositeory에 push했습니다. 
    $ git add game.js
@@ -26,8 +25,7 @@ asteroids를 실행하면 우주선과 소행성이 나타납니다. 키보드�
    $ git commit -sm 'delayBeforeBullet bugFix'
    $ git push origin master
   - 결과로 수정된 commit의 내용은 아래와 같습니다. (pull-request는 하지 않았습니다.^^)  
-![asteroids-bug](../resources/bugFixed.JPG)
-![learn-git-branching-level-1](../resources/bugFixed.JPG)
+![bugFixed](../resources/bugFixed.JPG)
   
 ### 힌트
 과제 2를 통해 커밋도 체크아웃 할 수 있다는 것을 배웠습니다. 이전 커밋을 체크하웃하면 타임머신을 타고 과거로 돌아갈 수 있습니다!
